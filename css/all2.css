@@ -91,7 +91,7 @@ header a {
   cursor: none;
   background: linear-gradient(180deg, rgba(243, 245, 246, 0) 0, #f3f5f6 100%);
   padding: 4px;
-  width: 140px;
+  width: 134px;
 }
 header a:active {
   background: #edf2f4;
