@@ -91,17 +91,17 @@ header {
 header a {
   cursor: pointer;
   background: linear-gradient(180deg, rgba(243, 245, 246, 0) 0, #f3f5f6 100%);
-  /*padding: 4px;*/
-  width: 160px;
+  /*padding: 4px;
+  width: 160px;*/
 }
 header a:active {
   background: #edf2f4;
 }
 header i.svg-kocek {
-  width: 100%;
+  width: 134px;
   height: 33px;
-  background-size: contain;
-  background-position: center center;
+  background-size: cover;
+  
 }
 main {
   margin-top: 2rem;
