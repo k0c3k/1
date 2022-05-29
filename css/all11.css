@@ -1,4 +1,3 @@
-
 html {
   background: #fff;
   color: #000;
@@ -89,9 +88,9 @@ header {
   margin-bottom: 1.5rem;
 }
 header a {
-  cursor: pointer;
   background: linear-gradient(180deg, rgba(243, 245, 246, 0) 0, #f3f5f6 100%);
-  /*padding: 4px;*/
+  cursor: none;
+  padding: 4px;
   width: 134px;
 }
 header a:active {
@@ -157,14 +156,14 @@ img {
   pointer-events: none;
 }
 
-/*.k_services,
+.k_services,
 .ongoogle,
 header {
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
   user-select: none;
-}*/
+}
 .top-info {
   background: #deeafd;
   clear: both;
@@ -245,7 +244,7 @@ footer {
 }
 .ongoogle a {
   cursor: none;
-  /*padding: 4px;*/
+  padding: 4px;
   width: 100px;
 }
 .ongoogle a:active {
