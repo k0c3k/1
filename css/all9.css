@@ -101,7 +101,7 @@ header i.svg-kocek {
   width: 134px;
   height: 33px;
   background-size: cover;
-  
+  vertical-align: bottom
 }
 main {
   margin-top: 2rem;
