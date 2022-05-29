@@ -20,5 +20,5 @@ let topfoot=doc.createElement('div');
 topfoot.innerHTML=kfoot1+kfoot2;
 kfooter.insertBefore(topfoot,kfooter.firstElementChild);
 
-for(let i=0;i<kfootmail.length;i++){
-kfootmail[i].innerHTML='<a href="mailto:business@kocek.co" rel="nofollow noopener" target="_blank">business@kocek.co</a>'}
+for(let i=0;i<kfmail.length;i++){
+kfmail[i].innerHTML='<a href="mailto:business@kocek.co" rel="nofollow noopener" target="_blank">business@kocek.co</a>'}
