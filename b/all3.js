@@ -1,4 +1,6 @@
-/* Function */
+/* All function */
+function loadynk(e,t){if('b'==t)(s=doc.createElement('script')).type='text/javascript',s.async=!1,s.crossOrigin='anonymous',s.src=tls+kk1+e+'.min.js'+ver;else if('a'==t){var s;(s=doc.createElement('link')).rel='stylesheet',s.type='text/css',s.href=tls+kk1+e+'.min.css'+ver}void 0!==s&&doc.head.appendChild(s)};
+
 function inAfter(newNode,existingNode) {existingNode.parentNode.insertBefore(newNode,existingNode.nextSibling)}
 
 /* IMAGES */
