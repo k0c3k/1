@@ -36,4 +36,10 @@ metaDescription.name='description';
 metaDescription.content=idSetting.deskripsi;
 doc.head.appendChild(metaDescription);
 
+/* CANONICAL */
+let linkCanonical=doc.createElement('link');
+linkCanonical.setAttribute('rel', 'canonical');
+linkCanonical.href=tls+hn+idSetting.permalink;
+doc.head.appendChild(linkCanonical);
+
 }
