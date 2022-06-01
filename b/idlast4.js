@@ -1,4 +1,5 @@
 if (typeof idSetting === 'undefined') {
+
 /* META NOINDEX */
 let metaRobots=doc.createElement('meta');
 metaRobots.name='robots';
@@ -46,7 +47,7 @@ doc.head.appendChild(metaDescription);
 
 /* CANONICAL */
 let linkCanonical=doc.createElement('link');
-linkCanonical.setAttribute('rel', 'canonical');
+linkCanonical.rel='canonical';
 linkCanonical.href=tls+hn+idSetting.permalink;
 doc.head.appendChild(linkCanonical);
 
