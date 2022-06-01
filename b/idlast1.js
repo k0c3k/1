@@ -1,3 +1,12 @@
+if (typeof idSetting === 'undefined') {
+let metaRobots=doc.createElement('meta');
+metaRobots.name='robots';
+metaRobots.content='noindex, nofollow';
+doc.head.appendChild(metaRobots);
+}
+
+if (typeof idSetting !== 'undefined') {
+
 /* TITLE */
 doc.title=idSetting.judul;
 
@@ -26,3 +35,5 @@ let metaDescription=doc.createElement('meta');
 metaDescription.name='description';
 metaDescription.content=idSetting.deskripsi;
 doc.head.appendChild(metaDescription);
+
+}
