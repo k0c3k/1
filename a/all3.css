@@ -1,3 +1,4 @@
+/*
 html {
   background: #fff;
   color: #000;
@@ -77,6 +78,8 @@ h5 {
 h6 {
   font-size: 0.67em;
 }
+*/
+
 header {
   clear: both;
   display: flex;
@@ -262,6 +265,8 @@ footer {
   background-size: contain;
   vertical-align: bottom
 }
+
+/*
 .footer {
   border-top: 1px solid #dee2e6;
   margin-top: 1.5rem;
@@ -286,6 +291,7 @@ footer {
 .footer a {
   color: #333;
 }
+*/
 /* Responsive */
 @media (min-width: 300px) {
   
