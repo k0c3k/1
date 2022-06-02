@@ -35,10 +35,6 @@ video {
   display: block;
   max-width: 100%;
 }
-img {pointer-events:none}
-img:not([src]):not([srcset]) {
-  visibility: hidden;
-}
 b,
 strong {
   font-weight: bolder;
