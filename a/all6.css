@@ -149,6 +149,8 @@ footer{clear:both}
 }
 .foot-info h2 {
   font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0
 }
 .foot-info i.icon-xor:after {
   font-size: 27.5px;
