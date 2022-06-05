@@ -193,11 +193,14 @@ footer{clear:both}
   padding: 4px;
   width: 100px;
 }
+.ongoogle a:hover {
+  text-decoration: none;
+}
 .ongoogle a:active {
   background: #edf2f4;
 }
-.ongoogle a:hover {
-  text-decoration: none;
+.ongoogle a:focus {
+  text-decoration:none
 }
 .ongoogle b {
   color: #70757a;
