@@ -25,9 +25,21 @@ heading1.innerHTML=idSetting.judul;
 kmain.insertBefore(heading1,kmain.firstElementChild);
 
 /* CONTENT */
-let divContent=doc.createElement('div');
-divContent.innerHTML=idContent.join('');
-kmain.appendChild(divContent);
+let h1='<h1>'+idSetting.judul+'</h1>';
+let article=doc.createElement('article');
+article.innerHTML=h1+idContent.join('');
+kmain.appendChild(article);
+
+let karticle=doc.querySelector("article");
+
+let breadcrumb=doc.createElement('ul');
+breadcrumb.className='breadcrumb';
+if (typeof idSetting.label !== 'undefined') {
+breadcrumb.innerHTML='<li><a href="'+tls+hn+'">Beranda</a></li><li><a href="'+idSetting.label.url+'">'+idSetting.label.name+'</a></li>';
+} else {
+breadcrumb.innerHTML='<li><a href="'+tls+hn+'">Beranda</a></li>';
+};
+karticle.insertBefore(breadcrumb,karticle.firstElementChild);
 
 /* META INDEX */
 let metaRobots=doc.createElement('meta');
@@ -50,5 +62,13 @@ let linkCanonical=doc.createElement('link');
 linkCanonical.rel='canonical';
 linkCanonical.href=tls+hn+idSetting.permalink;
 doc.head.appendChild(linkCanonical);
+
+/* BREADCRUMBLIST */
+if (typeof idSetting.label !== 'undefined') {
+let breadcrumbList=doc.createElement('script');
+breadcrumbList.setAttribute('type' ,'application/ld+json');
+breadcrumbList.textContent='{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Beranda","item":"'+tls+hn+'"},{"@type":"ListItem","position":2,"name":"'+idSetting.label.name+'","item":"'+tls+hn+idSetting.label.url+'"}]}';
+doc.head.appendChild(breadcrumbList);
+}
 
 }
