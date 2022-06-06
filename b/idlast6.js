@@ -19,11 +19,6 @@ if (typeof idSetting !== 'undefined') {
 /* TITLE */
 doc.title=idSetting.judul;
 
-/* HEADING 1 */
-let heading1=doc.createElement('h1');
-heading1.innerHTML=idSetting.judul;
-kmain.insertBefore(heading1,kmain.firstElementChild);
-
 /* CONTENT */
 let h1='<h1>'+idSetting.judul+'</h1>';
 let article=doc.createElement('article');
