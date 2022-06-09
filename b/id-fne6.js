@@ -23,6 +23,10 @@ function fneLast(){
   }
 };
 
-fne('p','about',1);
-fne('p','layanan',0);
-fneLast();
+if(/^\?p=/.test(lSearch)){
+  loadynk('p/0','b');
+}else if(/^\?q=/.test(lSearch)){
+
+}else if(/^\?forms=/.test(lSearch)){
+
+}else{fneLast()}
