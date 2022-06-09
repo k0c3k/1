@@ -10,7 +10,7 @@ function fne(f,n,e){
     s.addEventListener('load',function(){
       var id=doc.querySelector('[data-id="fne"]');
       if(id!==null){
-        loadynk('b/idexist0','b');
+        loadyn(kk1+'b/idexist0','b');
       }
     })
   }
@@ -19,7 +19,7 @@ function fne(f,n,e){
 function fneLast(){
   var id=doc.querySelector('[data-id="fne"]');
   if(id===null){
-    loadynk('b/idnone0','b');
+    loadyn(kk1+'b/idnone0','b');
   }
 };
 
