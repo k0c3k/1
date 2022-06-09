@@ -1,12 +1,25 @@
-/* All function */
-function loadynk(e,t){if('b'==t)(s=doc.createElement('script')).type='text/javascript',s.async=!1,s.crossOrigin='anonymous',s.src=tls+kk1+e+'.min.js'+ver;else if('a'==t){var s;(s=doc.createElement('link')).rel='stylesheet',s.type='text/css',s.href=tls+kk1+e+'.min.css'+ver}void 0!==s&&doc.head.appendChild(s)};
+/* function */
+function loadynk(e,t){
+  var s;
+  if(t=='a'){
+    s=doc.createElement('link');
+    s.href=tls+kk1+e+'.min.css'+ver;
+    s.rel='stylesheet';
+    s.type='text/css';
+    if(typeof s!=='undefined'){
+      khead.appendChild(s);}
+  }else if(t=='b'){
+    s=doc.createElement('script');
+    s.async=!1;
+    s.crossOrigin='anonymous';
+    s.src=tls+kk1+e+'.min.js'+ver;
+    s.type='text/javascript';
+    if(typeof s!=='undefined'){
+      kbody.appendChild(s);}
+  }
+};
 
-function inAfter(newNode,existingNode) {existingNode.parentNode.insertBefore(newNode,existingNode.nextSibling)}
-
-/* IMAGES */
-for(let i=0;i<kimgAll.length;i++){
-  kimgAll[i].oncontextmenu=function(){return false};
-}
+function inAfter(newNode,existingNode){existingNode.parentNode.insertBefore(newNode,existingNode.nextSibling)}
 
 /* Top info */
 var info1='<div class="top-info notranslate" data-nosnippet><p>Status Transaksi: <b class="green">Online</b> / <b class="red">Offline</b><br>Status Layanan: <b class="blue">Semua Normal</b><br>Selamat Hemat :)</p></div>'
