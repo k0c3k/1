@@ -22,3 +22,6 @@ function fneLast(){
     loadynk('b/none','b');
   }
 };
+
+fne('p','about','1);
+fneLast();
