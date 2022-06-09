@@ -1,4 +1,4 @@
-if (typeof idSetting!=='undefined'){
+if(typeof idSetting!=='undefined'){
 
 /* TITLE */
 doc.title=idSetting.judul;
