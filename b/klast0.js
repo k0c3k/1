@@ -1,3 +1,4 @@
+var kimgAll=doc.querySelectorAll('img');
 for(let i=0;i<kimgAll.length;i++){
   kimgAll[i].oncontextmenu=function(){return false};
 }
