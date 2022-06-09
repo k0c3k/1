@@ -23,5 +23,5 @@ function fneLast(){
   }
 };
 
-fne('p','about','1);
+fne('p','about',1);
 fneLast();
