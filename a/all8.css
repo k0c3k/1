@@ -1,10 +1,9 @@
-header,.k_services,.foot-info h2,.ongoogle {
+header,.top-info,.k_services,.foot-info h2,.ongoogle {
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
   user-select: none
 }
-
 header {
   clear: both;
   display: flex;
@@ -111,11 +110,11 @@ ul.hyphen-minus li::before {
   text-decoration: underline;
 }
 
+/* TOP INFO */
 .top-info {
   background: #deeafd;
   clear: both;
-  font-size: 16px;
-  padding: 16px;
+  padding: 1rem;
   margin-bottom: 1.5rem;
 }
 .top-info p {
@@ -125,20 +124,18 @@ ul.hyphen-minus li::before {
   padding: 0;
 }
 .top-info p:first-child {
-  margin-top: 0;
+  margin-top: 0
 }
 .top-info p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 0
 }
-.top-info .blue {
-  color: #3490dc;
+
+.top-info * {
+  font-family: monospace, monospace;
+  font-size: 0.91rem;
+  font-weight: 400;
 }
-.top-info .green {
-  color: #0f9d58;
-}
-.top-info .red {
-  color: #db4437;
-}
+
 footer{clear:both}
 .foot-info {
   background: #273443;
