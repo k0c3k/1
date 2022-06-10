@@ -21,8 +21,6 @@ function loadynk(e,t){
 
 function inAfter(newNode,existingNode){existingNode.parentNode.insertBefore(newNode,existingNode.nextSibling)}
 
-loadyn(cdn+'hamdaniazzah/0/main/kk/info0.min','a');
-
 /* Top info */
 var info1='<p><b id="s1"></b><b></b><br><b id="s2"></b><b></b><br><b id="note"></b><b></b><br><b id="plus"></b><b></b></p>';
 let topinfo=doc.createElement('div');
