@@ -32,8 +32,12 @@ header i.svg-kocek {
 
 main {
   clear: both;
+  display: block;
   margin: 2rem 0
 }
+
+article > h1 > a {color:#333}
+article > h1 > a:focus {text-decoration:none}
 
 .clear{clear:both}
 .m0{margin:0}
