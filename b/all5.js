@@ -21,9 +21,13 @@ function loadynk(e,t){
 
 function inAfter(newNode,existingNode){existingNode.parentNode.insertBefore(newNode,existingNode.nextSibling)}
 
+loadyn(cdn+'hamdaniazzah/0/main/kk/info0.min','a');
+
 /* Top info */
-var info1='<div class="top-info notranslate" data-nosnippet><p>Status Transaksi: <b class="green">Online</b> / <b class="red">Offline</b><br>Status Layanan: <b class="blue">Semua Normal</b><br>Selamat Hemat :)</p></div>'
+var info1='<div class="<p><b id="s1"></b><b></b><br><b id="s2"></b><b></b><br><b id="note"></b><b></b><br><b id="plus"></b><b></b></p>'
 let topinfo=doc.createElement('div');
+topinfo.className='top-info';
+topinfo.setAttribute('data-nosnippet', 'true');
 topinfo.innerHTML=info1;
 inAfter(topinfo,kheader);
 
@@ -35,4 +39,5 @@ let topfoot=doc.createElement('div');
 topfoot.innerHTML=kfoot1+kfoot2;
 kfooter.insertBefore(topfoot,kfooter.firstElementChild);
 
-doc.querySelector('.footer p:nth-child(1) b').innerHTML='<a href="mailto:business@kocek.co" rel="nofollow noopener" target="_blank">business@kocek.co</a>';
+doc.querySelector('.footer p:nth-child(1) b').innerHTML='<a data-id="email" href="mailto:business@kocek.co" rel="nofollow noopener" target="_blank"><b></b></a>';
+
