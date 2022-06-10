@@ -10,7 +10,7 @@ function fne(f,n,e){
     s.addEventListener('load',function(){
       var id=doc.querySelector('[data-id="fne"]');
       if(id!==null){
-        loadynk('b/idexist0','b');
+        loadynk('b/idexist1','b');
       }
     })
   }
