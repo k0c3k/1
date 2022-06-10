@@ -4,7 +4,7 @@ if(typeof idSetting!=='undefined'){
 doc.title=idSetting.judul;
 
 /* CONTENT */
-let h1='<h1>'+idSetting.judul+'</h1>';
+let h1='<h1><a href="'+idSetting.permalink+'">'+idSetting.judul+'</a></h1>';
 let article=doc.createElement('article');
 article.innerHTML=h1+idContent.join('');
 kmain.appendChild(article);
