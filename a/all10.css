@@ -39,6 +39,10 @@ main {
 article > h1 > a {color:#333}
 article > h1 > a:focus {text-decoration:none}
 
+h2,h3,h4,h5,h6 {
+  line-height:1.2
+}
+
 .clear{clear:both}
 .m0{margin:0}
 .p0{padding:0}
