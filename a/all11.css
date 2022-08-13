@@ -100,6 +100,19 @@ ul.hyphen-minus li::before {
   padding-right: 8px
 }
 
+blockquote.note {
+  background: #ffeaa7;
+  border-top: 3px solid rgba(0,0,0,0.1);
+  border-bottom: 3px solid rgba(0,0,0,0.1);
+  border-radius: 0px;
+  color: #333;
+  display: block;
+  font-weight: 400;
+  margin: 1rem 0;
+  padding: 13px 16px;
+  position: relative
+}
+
 .az_service i.svg-link {
   width: 16px;
   height: 16px;
@@ -312,8 +325,7 @@ button.klik1 a:hover {
   
 }
 @media (max-width: 479.9px) {
-  .foot-info,
-  .top-info {
+  .top-info,.foot-info,blockquote.note {
     width: 100vw;
     position: relative;
     left: 50%;
@@ -323,7 +335,7 @@ button.klik1 a:hover {
   }
 }
 @media (min-width: 480px) {
-  .foot-info {border-radius:10px}
+  .foot-info,blockquote.note {border-radius:10px}
 }
 @media (min-width: 600px) {
   .foot-info p{width:70%}
