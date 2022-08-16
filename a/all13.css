@@ -40,11 +40,11 @@ article > h1 > a {color:#333}
 article > h1 > a:focus {text-decoration:none}
 
 h1{margin:0.67rem 0}
-h2{margin:1.245rem 0 0.83rem}
-h3{margin:1.5rem 0 1rem}
-h4{margin:1.995rem 0 1.33rem}
-h5{margin:2.505rem 0 1.67rem}
-h6{margin:3.495rem 0 2.33rem}
+h2{margin:1.66rem 0 0.83rem}
+h3{margin:2rem 0 1rem}
+h4{margin:2.66rem 0 1.33rem}
+h5{margin:3.34rem 0 1.67rem}
+h6{margin:4.66rem 0 2.33rem}
 
 .clear{clear:both}
 .m0{margin:0}
