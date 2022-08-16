@@ -302,13 +302,20 @@ button.klik:active {
   
 }
 @media (max-width: 479.9px) {
-  .top-info,.foot-info,blockquote.note,.sticky_bottom {
+  .top-info,.foot-info,blockquote.note {
     width: 100vw;
     position: relative;
     left: 50%;
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw
+  }
+  .sticky_bottom {
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    right: 50%;
+    width: 100vw;
   }
 }
 @media (min-width: 480px) {
