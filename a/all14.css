@@ -261,63 +261,29 @@ i.svg-google {
 }
 
 /* Button */
-button.klik1 {
-  appearance: none;
-  background: #fff;
-  border: 1px solid #111;
-  box-sizing: border-box;
-  color: #111;
-  cursor: pointer;
-  display: inline-block;
-  font-family: monospace,monospace;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1rem;
-  margin: 0;
-  opacity: 1;
-  outline: 0;
+button.klik {
+  background-color: #f3f5f6;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 4px;
+  color: #333;
+  cursor: none;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   padding: 1rem 1.5rem;
-  position: relative;
-  text-align: center;
   text-decoration: none;
-  text-rendering: geometricprecision;
-  transition: opacity 300ms cubic-bezier(.694,0,0.335,1),background-color 100ms cubic-bezier(.694,0,0.335,1),color 100ms cubic-bezier(.694,0,0.335,1);
+  -moz-user-select: none;
+  -ms-user-select: none;
   -webkit-user-select: none;
-  user-select: none;
-  touch-action: manipulation;
-  vertical-align: baseline;
-  white-space: nowrap
+  user-select: none
 }
-button.klik1:before {
-  backface-visibility: hidden;
-  background: #ebebeb;
-  -webkit-clip-path: polygon(-1% 0,0 0,-25% 100%,-1% 100%);
-  clip-path: polygon(-1% 0,0 0,-25% 100%,-1% 100%);
-  content: "";
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  transform: translateZ(0);
-  transition: -webkit-clip-path .5s cubic-bezier(.165,0.84,0.44,1);
-  transition: clip-path .5s cubic-bezier(.165,0.84,0.44,1);
-  width: 100%
+button.klik_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
-button.klik1:hover:before {
-  -webkit-clip-path: polygon(0 0,101% 0,101% 101%,0 101%);
-  clip-path: polygon(0 0,101% 0,101% 101%,0 101%)
-}
-button.klik1:after {
-  background-color: #fff
-}
-button.klik1 a,button.klik1 b {
-  color: #111;
-  position: relative;
-  z-index: 1
-}
-button.klik1 a:hover {
-  text-decoration: none
+button.klik:active {
+  background-color: #e8f0fe
 }
 
 /* Responsive */
