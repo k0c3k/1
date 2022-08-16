@@ -302,7 +302,7 @@ button.klik:active {
   
 }
 @media (max-width: 479.9px) {
-  .top-info,.foot-info,blockquote.note,sticky_bottom {
+  .top-info,.foot-info,blockquote.note,.sticky_bottom {
     margin-left: -8px;
     margin-right: -8px;
   }
