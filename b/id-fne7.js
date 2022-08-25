@@ -5,11 +5,11 @@ function fne(f,n,e){
     s.setAttribute('data-id','fne');
     s.src=tls+kk1+f+'/'+n+e+'.min.js'+ver;
     s.type='text/javascript';
-  if(typeof s!=='undefined' && lSearch==='?'+f+'='+n){
+  if(typeof s != 'undefined' && lSearch === '?'+f+'='+n){
     kbody.appendChild(s);
     s.addEventListener('load',function(){
       var id=doc.querySelector('[data-id="fne"]');
-      if(id!==null){
+      if(id != null){
         loadynk('b/idexist1','b');
       }
     })
@@ -18,7 +18,7 @@ function fne(f,n,e){
 
 function fneLast(){
   var id=doc.querySelector('[data-id="fne"]');
-  if(id===null){
+  if(id == null){
     loadynk('b/idnone0','b');
   }
 };
