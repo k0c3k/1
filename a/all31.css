@@ -175,10 +175,13 @@ footer{clear:both}
   font-size: 16px;
 }
 .foot-info h3,
-.foot-info h4,
 .foot-info p {
   color: rgba(255, 255, 255, 0.5);
   margin: 0;
+}
+.foot-info h4 {
+  color: rgba(255, 255, 255, 0.85);
+  margin: 1rem auto 0;
 }
 .foot-info p {
   font-size: small;
