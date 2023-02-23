@@ -171,10 +171,11 @@ footer{clear:both}
   font-weight: 700;
   margin-right: 5px;
 }
-.foot-info h3 {
+.foot-info h3,.foot-info h4 {
   font-size: 16px;
 }
 .foot-info h3,
+.foot-info h4,
 .foot-info p {
   color: rgba(255, 255, 255, 0.5);
   margin: 0;
