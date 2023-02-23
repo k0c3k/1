@@ -181,7 +181,7 @@ footer{clear:both}
 }
 .foot-info h4 {
   color: rgba(255, 255, 255, 0.85);
-  margin-top: 1.5rem;
+  margin: 1.5rem auto 0;
 }
 .foot-info p {
   font-size: small;
