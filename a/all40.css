@@ -43,6 +43,9 @@ header i.svg-xor {
   background-size: contain;
   margin-right: 2px;
 }
+header a b::after {
+  content: "Kocék";
+}
 
 main {
   clear: both;
