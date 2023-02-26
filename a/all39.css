@@ -34,7 +34,7 @@ header a:active {
   background: #edf2f4;
   transition: background-color 0s;
 }
-a:focus {
+header a:focus {
   text-decoration: none
 }
 header i.svg-xor {
