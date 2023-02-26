@@ -120,8 +120,8 @@ i.svg-plus-thick {
   background: linear-gradient(180deg, rgba(243, 245, 246, 0) 0, #f3f5f6 100%);
   display: block;
   margin: 1.5rem auto;
-/*width: 100%;
-  max-width: 100%;*/
+  width: 100%;
+  max-width: 100%;
   padding: 1rem;
   border: 1px solid #dee2e6;
   border-radius: 10px;
@@ -168,6 +168,10 @@ i.svg-plus-thick {
   }
   .grid {
     display: block;
+  }
+  .grid .k_services {
+    width: 100%;
+    max-width: 100%;
   }
 }
 @media (min-width: 480px) {
