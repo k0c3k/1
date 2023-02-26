@@ -34,6 +34,9 @@ header a:active {
   background: #edf2f4;
   transition: background-color 0s;
 }
+a:focus {
+  text-decoration: none
+}
 header i.svg-xor {
   width: 22.805px;
   height: 22.805px;
